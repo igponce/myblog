@@ -1,0 +1,21 @@
+---
+title: "How to recover control from a frozen Google Cloud shell"
+date: 2019-08-21T08:47:11+01:00
+draft: true
+---
+
+What to do if your google cloud console (in your browser) is unresponsive (aka hung).
+
+## Symptoms
+
+You opened a google cloud console, and sshd to a instance (gcloud compute ssh instancename).
+After a while (probably not much time) you cannot type more commands on the terminal.
+"No problem" - you think - just close the CCP cloud shell window and open it again... and you get the same unresponsive screen.
+
+## How to fix
+
+You've got some options:
+
+- Wait until google destroys the cloud shell after some time.
+- If you cannot afford waiting, use TMUX shortcuts to close the session and open a new cloud shell (Control-B & : you will be asked for confirmation).
+  
