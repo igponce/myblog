@@ -1,5 +1,5 @@
 {
-  "name": "inigogonzalez",
+  "name": "inigogonzalez_dotcom",
   "version": "1.0.0",
   "description": "Website for inigogonzalez.com",
   "private": true,
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "css-loader": "^6.2.0",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "",
