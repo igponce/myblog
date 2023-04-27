@@ -1,0 +1,16 @@
+---
+title: "A new job specification beyond cron"
+date: 2023-04-27T23:23:23Z
+draft: true
+---
+
+# Possible examples
+@daily notbefore ISODate [notafter never]
+
+@every timeinterval [notbefore ISODate] [notafter ISODate]
+
+Where: timeinterval can be:
+
+- 10s
+- 5m
+- 1h
